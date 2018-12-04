@@ -12,6 +12,6 @@ for line in lines:
         mx = int(ln[1])
         # Récuperation du mot assigné au Max à chaque mise à jour de max
         emax = ln[0]
-        
+
 # Affichage du mot avec le plus d'occurence
-print(emax)
+print(emax+": "+str(mx))
